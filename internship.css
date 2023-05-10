@@ -1,0 +1,141 @@
+body{
+    background-color:  #2E8B57;
+}
+
+
+.intern-name{
+    position:absolute;
+    text-align: center;
+    margin-left: 400px;
+    top: 200px;
+    font-family: "Alkatra";
+    font-size: 40px;
+    color: white;
+
+}
+
+.intern-detail-right-panel{
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    width: 350px;
+    height: 190px;
+    background-color:#015924;
+    margin-left: 310px;
+    margin-top: 230px;
+}
+
+.intern-detail-left-panel{
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    width: 350px;
+    height: 190px;
+    background-color:#015924;
+    margin-left: 780px;
+    margin-top: -190px;
+}
+
+.nav-card{
+    content: '';
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 5px;
+    position: absolute;
+    background-color: #F9F6EE;
+    width: 34%;
+    height:7%;
+    
+}
+
+.nav-text{
+    margin-left: 610px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.main_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+   }
+   .full-boxer_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+   }
+   
+   .comment-box_card{
+    width: 600px;
+    background:white;
+    padding:15px;
+    margin:15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+   }
+   
+   .profile_card{
+    display:flex;
+    align-items: center;
+   }
+   
+   .profile-image_card{
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-top: 10px;
+   }
+   
+   .profile-image_card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+   }
+.intern-card{
+    box-shadow: 0 8px 2px 0 rgba(0,0,0,5);
+    transition: 0.5s;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+     margin-top: 80px; 
+    display:flex;
+    
+}
+
+.intern-card:hover{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,5);
+}
+
+.intern-text{
+    padding: 2px 16px;
+}
+
+.photo_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    border-radius: 20%;
+    text-align: center;
+    position: absolute;
+    top:150px;
+    left: -150px;
+    padding: 5px;
+}

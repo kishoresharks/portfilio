@@ -1,0 +1,252 @@
+body{
+ background-color: #F2F2D5;
+}
+
+
+.intern-card{
+ box-shadow: 0 8px 2px 0 rgba(0,0,0,0.2);
+ transition: 0.5s;
+ background-color: white;
+ text-align: center;
+ width: 15%;
+ height: 27%;
+ left: 590px;
+ position: absolute;
+ margin-top: 30px;
+ top: 10px;
+ border-radius: 10px;
+}
+
+.nav-card{
+ content: '';
+ border-top-right-radius: 8px;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+ border-bottom-right-radius: 8px;
+ padding: 5px;
+ position: absolute;
+ background-color: #FF8353;
+ width: 34%;
+ height:7%;
+ margin-left: 530px;
+ margin-top: -20px;
+}
+
+.nav-text{
+ margin-left: 610px;
+ margin-top: 0px;
+ position: absolute;
+}
+
+
+.skills-card-right{
+    box-shadow: 0 8px 2px 0 rgba(0,0,0,5);
+    transition: 0.5s;
+    background-color: white;
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.skills-card-right:hover{
+ box-shadow: 0 16px 16px 0 rgba(0,0,0,5);
+}
+
+.skills-card-left{
+ box-shadow: 0 8px 2px 0 rgba(0,0,0,5);
+ transition: 0.5s;
+ background-color: white;
+ text-align: center;
+ width: 25%;
+ height: 30%;
+ margin-left: 800px;
+ margin-top: -270px;
+}
+
+.skills-card-left:hover{
+box-shadow: 0 16px 16px 0 rgba(0,0,0,5);
+}
+
+.skills-text{
+ padding: 2px 16px;
+}
+
+.main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+
+}
+.full-boxer{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.main_card{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+
+}
+.full-boxer_card{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 70%;
+}
+
+.comment-box_card{
+ width: 500px;
+ background:white;
+ padding:15px;
+ margin:15px;
+ border-radius: 8px;
+ cursor: pointer;
+ box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.profile_card{
+ display:flex;
+ align-items: center;
+}
+
+.profile-image_card{
+ width: 150px;
+ height: 150px;
+ box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+ overflow: hidden;
+ border-radius: 5%;
+ margin-right: 10px;
+ margin-top: 10px;
+}
+
+.profile-image_card img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+.comment-box{
+ width: 700px;
+ background:white;
+ padding:15px;
+ margin:15px;
+ border-radius: 8px;
+ cursor: pointer;
+ box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.profile{
+ display:flex;
+ align-items: center;
+}
+
+.profile-image{
+ width: 150px;
+ height: 150px;
+ box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+ overflow: hidden;
+ border-radius: 5%;
+ margin-right: 10px;
+ margin-top: 10px;
+}
+
+.profile-image img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+/* For Name Card */
+.main_textcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top:50px;
+   }
+   .full-boxer_textcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    
+   }
+   
+   .comment-box_textcard{
+    width: 700px;
+    background:white;
+    padding:15px;
+    margin:15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+   }
+   
+   .profile_textcard{
+    display:flex;
+    align-items: center;
+   }
+   
+   /* Skills Cards */
+   .main_skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+   }
+  
+   .full-boxer_skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   .comment-box_skill{
+    width: 400px;
+    background:white;
+    padding:15px;
+    margin:15px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+   }
+   .comment-box_skill:hover{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,5);
+   }
+   
+   .profile_skill{
+    display:flex;
+    align-items: center;
+   }
+   
+   .profile-image_skill{
+    width: 50px;
+    height: 50px;
+    
+    overflow: hidden;
+    border-radius: 5%;
+    
+   }
+   .profile-image_skill img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+   }
